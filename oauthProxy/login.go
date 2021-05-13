@@ -6,7 +6,7 @@ import (
 )
 
 func (p *Proxy) Login(username, password string) (string, error) {
-	loginURL := fmt.Sprintf("%s/%s",p.BaseURL, p.OAuthURL)
+	loginURL := p.BaseURL + p.OAuthURL
 
 	dto := make(map[string]interface{})
 

@@ -9,7 +9,7 @@ func (p *Proxy) Refresh(authData string) (string, error) {
 	jwt := p.Converter.FromFrontendToJWT(authData)
 	rToken := jwt["RefreshToken"].(string)
 
-	loginURL := fmt.Sprintf("%s/%s",p.BaseURL, p.OAuthURL)
+	loginURL :=  p.BaseURL + p.OAuthURL
 
 	dto := make(map[string]interface{})
 

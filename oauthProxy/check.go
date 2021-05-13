@@ -8,7 +8,7 @@ func (p *Proxy) Check(authData string) (string, error) {
 	jwt := p.Converter.FromFrontendToJWT(authData)
 	aToken := jwt["AccessToken"].(string)
 
-	checkURL := fmt.Sprintf("%s/%s",p.BaseURL, p.CheckURL)
+	checkURL := p.BaseURL + p.CheckURL
 	headers := map[string]interface{}{
 		"Authorization":  fmt.Sprintf("Bearer %s", aToken),
 	}

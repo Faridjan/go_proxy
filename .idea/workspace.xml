@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="cc1e8589-a3a3-4bf7-80c1-06a80063af17" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/httpClient.go" beforeDir="false" afterPath="$PROJECT_DIR$/client/httpClient.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/client/interface.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oauthProxy/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/oauthProxy/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauthProxy/check.go" beforeDir="false" afterPath="$PROJECT_DIR$/oauthProxy/check.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauthProxy/login.go" beforeDir="false" afterPath="$PROJECT_DIR$/oauthProxy/login.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauthProxy/logout.go" beforeDir="false" afterPath="$PROJECT_DIR$/oauthProxy/logout.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauthProxy/logoutAll.go" beforeDir="false" afterPath="$PROJECT_DIR$/oauthProxy/logoutAll.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauthProxy/refresh.go" beforeDir="false" afterPath="$PROJECT_DIR$/oauthProxy/refresh.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +37,14 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/converter/interface.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/converter/converter.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/oauthProxy/login.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/go.mod" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/client/interface.go" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/oauthProxy/check.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/client/httpClient.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/oauthProxy/main.go" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1sQEWJpyfKr3peajiKZqhqCzETP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">

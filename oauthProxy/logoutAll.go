@@ -8,7 +8,7 @@ func (p *Proxy) LogoutAll(authData string) (bool, error) {
 	jwt := p.Converter.FromFrontendToJWT(authData)
 	aToken := jwt["AccessToken"].(string)
 
-	logoutURL := fmt.Sprintf("%s/%s", p.BaseURL, p.LogoutAllURL)
+	logoutURL := p.BaseURL + p.LogoutAllURL
 
 	headers := map[string]interface{}{
 		"Authorization":  fmt.Sprintf("Bearer %s", aToken),
