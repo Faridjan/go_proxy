@@ -3,6 +3,8 @@ package oauthProxy
 import (
 	"github.com/Faridjan/go_proxy/client"
 	"github.com/Faridjan/go_proxy/converter"
+	"net/http"
+	"time"
 )
 
 type Proxy struct {
@@ -21,5 +23,9 @@ type Proxy struct {
 }
 
 func (p *Proxy) Init()  {
-	p.Client.Init()
+	p.Client = &client.HttpClient{
+		Client: http.Client{Timeout: time.Duration(1) * time.Second},
+	}
+
+	p.Converter = &converter.Converter{}
 }

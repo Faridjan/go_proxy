@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc1e8589-a3a3-4bf7-80c1-06a80063af17" name="Default Changelist" comment="" />
+    <list default="true" id="cc1e8589-a3a3-4bf7-80c1-06a80063af17" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/httpClient.go" beforeDir="false" afterPath="$PROJECT_DIR$/client/httpClient.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/client/interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oauthProxy/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/oauthProxy/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,13 +38,16 @@
     <setting file="file://$PROJECT_DIR$/oauthProxy/check.go" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1sQEWJpyfKr3peajiKZqhqCzETP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showURL" value="false" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -80,6 +88,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

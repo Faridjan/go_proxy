@@ -5,15 +5,10 @@ import (
 	"encoding/json"
 	"io/ioutil"
 	"net/http"
-	"time"
 )
 
 type HttpClient struct {
 	Client http.Client
-}
-
-func (c *HttpClient) Init()  {
-	c.Client = http.Client{Timeout: time.Duration(1) * time.Second}
 }
 
 func (c *HttpClient) Get(URL string, header map[string]interface{}) (string, int) {
