@@ -1,8 +1,8 @@
 package oauthProxy
 
 import (
-	"proxy/client"
-	"proxy/converter"
+	"github.com/Faridjan/go_proxy/client"
+	"github.com/Faridjan/go_proxy/converter"
 )
 
 type Proxy struct {
