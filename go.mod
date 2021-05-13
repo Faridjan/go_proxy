@@ -1,4 +1,4 @@
-module go_proxy
+module "github.com/Faridjan/go_proxy"
 
 go 1.16
 
